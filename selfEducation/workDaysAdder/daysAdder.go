@@ -18,7 +18,7 @@ func main() {
 	d := friday.addWorkDays(3)
 	fmt.Println(d)
 }
-
+// Work with time package, and use constant from this package
 func (d Days) addWorkDays(n int) string {
 	count := n
 	workDays := []string{
